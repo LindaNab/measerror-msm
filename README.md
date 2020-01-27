@@ -4,7 +4,7 @@ Version 0.1.0
 
 Code for processing the simulation study bit of the preprint 'Quantitative bias analysis for a misclassified confounding variable in point-treatment studies: a comparison between marginal structural models and conditional models'.
 
-Use the provided .rds files in ./data/processed to generate a table that includes the results of the simulation study.
+Use the provided .rds files in ./data/processed to generate a table that includes the results of the simulation study (find the R code in /src).
 
 
 ## Project organization
