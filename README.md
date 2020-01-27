@@ -2,10 +2,25 @@
 
 Version 0.1.0
 
-Code for processing the simulation study bit of the preprint 'Quantitative bias analysis for a misclassified confounding variable in point-treatment studies: a comparison between marginal structural models and conditional models'.
+Code for generating table 1 from the preprint 'Quantitative bias analysis for a misclassified confounding variable in point-treatment studies: a comparison between marginal structural models and conditional models'.
 
-Use the provided .rds files in ./data/processed to generate a table that includes the results of the simulation study (find the R code in /src).
+The R code in /src can be used to generate the table that comprises the results of the simulation study. The table that is produced by the script can be used in LaTeX files. 
 
+The script will use the .rds files available in ./data/processed.
+
+Download the repository by using:
+```console
+git clone https://github.com/LindaNab/measerror-msm
+```
+
+This script is tested on:
+R version 3.5.1 (2018-07-02)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS  10.14.6
+
+With attached packages:
+xtable_1.8-4
+rsimsum_0.6.1
 
 ## Project organization
 
